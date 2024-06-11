@@ -1,0 +1,62 @@
+ALGUNS TIPOS VALOR: 
+
+sbyte;  // valores possíveis: -128 até 127
+
+int;
+
+byte; // valores possíveis: 0 até 255 (já que 1 byte = 8 bits e portanto 2^8 = 256)
+
+float;
+
+bool; // true or false
+
+string; // Imutável!
+
+object; // toda classe em C# é uma subclasse de object
+
+
+FUNÇÕES ÚTEIS:
+
+int.MinValue;
+
+float.MaxValue;
+
+
+AULA:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Course {
+    internal class Program {
+        static void Main(string[] args) {
+            bool completo = false;
+            sbyte x = 127;
+            int y = 1000;
+            int z = 2147483647;
+            char genero = 'F';
+            char letra = '\u0099'; // você pode encontrar mais em unicode-table
+            float a = 4.5f;
+            double b = 4.5;
+            string nome = "manoel";
+            object obj1 = "lucas";
+            object obj2 = 4.5f;
+            
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(completo);
+            Console.WriteLine(genero);
+            Console.WriteLine(letra);
+            Console.WriteLine(obj1);
+            Console.WriteLine(obj2);
+            Console.WriteLine(nome);
+        }
+    }
+}

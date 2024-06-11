@@ -1,0 +1,24 @@
+- .sln (Arquivo Solução)
+- .csproj (Arquivo)
+- .cs (Classe Principal)
+
+
+Estrutura do Programa
+
+using System; (namespace padrão do .NET)  ***Lembrando que o namespace de um programa é um agrupamento de classes relacionadas***
+
+namespace NomedoProjeto{
+}
+
+class Program{} (O código fonte deve estar dentro de uma classe. A classe é a unidade básica da POO)
+
+- por padrão o nome da classe deve ser o mesmo do programa
+
+static void Main(string[] args){} 
+
+-é uma declaração padrão do C# e serve como um ponto de entrada do programa
+
+
+IDENTAÇÃO AUTOMÁTICA:
+
+CTRL + K + D
