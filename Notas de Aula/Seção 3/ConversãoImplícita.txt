@@ -1,0 +1,16 @@
+Conversão Implícita:
+A variável em questão recebe uma variável de um tipo diferente, mas que seja compatível por exemplo:
+
+float x = 4.5f;
+
+double y = x;
+
+Isto é possível já que double carrega até 8 bytes e float 4 bytes
+
+CASTING:
+Conversão explícita
+double a;
+int b;
+
+a = 5.1;
+b = (int)a; //casting, neste caso a saída será 5, já que só o valor inteiro é considerado

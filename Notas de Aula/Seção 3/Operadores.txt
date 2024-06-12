@@ -1,0 +1,62 @@
+OPERADORES DE ATRIBUIÇÃO:
+=
+
++=
+
+-=
+
+*=
+
+/=
+
+%=
+
+OPERADORES ARITMÉTICOS:
++ Soma
+
+- Subtração
+
+* Multiplicação
+
+/ Divisão
+
+% Resto da Divisão
+
+++ //a++ é igual à a=a+1
+
+-- //a-- é igual à a=a-1
+
+
+AULA:
+
+using System;
+using System.Globalization;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicio1 {
+    internal class Program {
+        static void Main(string[] args) {
+            int n1 = 1 + 12 * (10 % 5);
+            double n2 = 22.3 + 2.5;
+            int n3 = (int)n2;
+            
+            // Equação do 2º grau;
+            double a = 1.0, b = -3.0, c = -4.0;
+            
+            double delta = Math.Pow(b, 2.0) - 4.0 * a * c;
+
+            double x1 = (-b + Math.Sqrt(delta)) / (2.0 * a);
+            double x2 = (-b - Math.Sqrt(delta)) / (2.0 * a);
+
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(x1);
+            Console.WriteLine(x2);
+        }
+    }
+}
