@@ -1,7 +1,0 @@
-C:\Users\Manoel\Documentos\manoel\C#\Projetos\Course\Course\bin\Debug\Course.exe.config
-C:\Users\Manoel\Documentos\manoel\C#\Projetos\Course\Course\bin\Debug\Course.exe
-C:\Users\Manoel\Documentos\manoel\C#\Projetos\Course\Course\bin\Debug\Course.pdb
-C:\Users\Manoel\Documentos\manoel\C#\Projetos\Course\Course\obj\Debug\Course.csproj.AssemblyReference.cache
-C:\Users\Manoel\Documentos\manoel\C#\Projetos\Course\Course\obj\Debug\Course.csproj.CoreCompileInputs.cache
-C:\Users\Manoel\Documentos\manoel\C#\Projetos\Course\Course\obj\Debug\Course.exe
-C:\Users\Manoel\Documentos\manoel\C#\Projetos\Course\Course\obj\Debug\Course.pdb
