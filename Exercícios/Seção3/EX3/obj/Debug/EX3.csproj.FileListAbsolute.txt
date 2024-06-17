@@ -1,0 +1,7 @@
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção3\EX3\bin\Debug\EX3.exe.config
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção3\EX3\bin\Debug\EX3.exe
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção3\EX3\bin\Debug\EX3.pdb
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção3\EX3\obj\Debug\EX3.csproj.AssemblyReference.cache
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção3\EX3\obj\Debug\EX3.csproj.CoreCompileInputs.cache
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção3\EX3\obj\Debug\EX3.exe
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção3\EX3\obj\Debug\EX3.pdb
