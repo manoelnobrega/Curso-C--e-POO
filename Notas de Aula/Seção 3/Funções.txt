@@ -1,4 +1,4 @@
-FUNÇÕES:
+FUNÇÕES:.
 
 Exemplos:
 Math.Sqrt(double)
