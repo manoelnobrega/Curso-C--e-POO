@@ -9,28 +9,15 @@ using System.Security.Principal;
 namespace Course {
     internal class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Digite três números:");
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-            int c = int.Parse(Console.ReadLine());
-
-            double resul = Maior(a, b, c);
-            Console.WriteLine($"Maior = {resul}");
-
-        }
-
-        static int Maior(int n1, int n2, int n3) {
-            int m;
-            if (n1 > n2 && n1 > n3) {
-                m = n1;
+            int a = 1;
+            while (a >= 0) {
+                Console.WriteLine("Digite um número:");
+                a = int.Parse(Console.ReadLine());
+                
+                double raiz = Math.Sqrt(a);
+                Console.WriteLine($"{raiz:F3}");
             }
-            else if (n2 > n3) { 
-                m = n2;
-            }
-            else {
-                m = n3;
-            }
-            return m;
+            Console.WriteLine("Número negativo!");
         }
     }
 }
