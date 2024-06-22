@@ -1,0 +1,47 @@
+FUNÇÕES:
+
+Exemplos:
+Math.Sqrt(double)
+Console.WriteLine(string)
+
+Vantagens:
+Modularização, delegação e reaproveitamento
+
+AULA:
+
+using System;
+using System.Globalization;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Security.Principal;
+
+namespace Course {
+    internal class Program {
+        static void Main(string[] args) {
+            Console.WriteLine("Digite três números:");
+            int n1 = int.Parse(Console.ReadLine());
+            int n2 = int.Parse(Console.ReadLine());
+            int n3 = int.Parse(Console.ReadLine());
+
+            double resul = Maior(n1, n2, n3);
+            Console.WriteLine($"Maior = {resul}");
+
+        }
+
+        static int Maior(int a, int b, int c) {
+            int m;
+            if (a > b && a > c) {
+                m = a;
+            }
+            else if (b > c) { 
+                m = b;
+            }
+            else {
+                m = c;
+            }
+            return m;
+        }
+    }
+}
