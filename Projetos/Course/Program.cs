@@ -9,15 +9,15 @@ using System.Security.Principal;
 namespace Course {
     internal class Program {
         static void Main(string[] args) {
-            int a = 1;
-            while (a >= 0) {
-                Console.WriteLine("Digite um número:");
-                a = int.Parse(Console.ReadLine());
-                
-                double raiz = Math.Sqrt(a);
-                Console.WriteLine($"{raiz:F3}");
+            Console.Write("Quantos números inteiros você vai digitar? ");
+            int n = int.Parse(Console.ReadLine());
+            int soma = 0;
+            for (int i = 1; i <= n; i++) {
+                Console.Write($"Valor #{i}: ");
+                int a = int.Parse(Console.ReadLine());
+                soma += a;
             }
-            Console.WriteLine("Número negativo!");
+            Console.WriteLine($"Soma = {soma}");
         }
     }
 }
