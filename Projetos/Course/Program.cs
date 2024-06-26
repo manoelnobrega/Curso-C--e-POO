@@ -9,15 +9,35 @@ using System.Security.Principal;
 namespace Course {
     internal class Program {
         static void Main(string[] args) {
-            Console.Write("Quantos números inteiros você vai digitar? ");
-            int n = int.Parse(Console.ReadLine());
-            int soma = 0;
-            for (int i = 1; i <= n; i++) {
-                Console.Write($"Valor #{i}: ");
-                int a = int.Parse(Console.ReadLine());
-                soma += a;
+
+            Triangulo x, y;
+            x = new Triangulo();
+            y = new Triangulo();
+
+            Console.Write("Entre com as medidas do triângulo X:");
+            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Entre com as medidas do triângulo Y:");
+            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            
+            double px = (x.A + x.B + x.C) / 2;
+            double py = (y.A + y.B + y.C) / 2;
+
+            double areaX = Math.Sqrt(px * (px - x.A) * (px - x.B) * (px - x.C));
+            double areaY = Math.Sqrt(py * (py - y.A) * (py - y.B) * (py - y.C));
+
+            Console.WriteLine($"Área de X = {areaX.ToString("F4", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Área de Y = {areaY.ToString("F4", CultureInfo.InvariantCulture)}");
+            
+            if (areaX > areaY) {
+                Console.WriteLine($"Maior área: X");
             }
-            Console.WriteLine($"Soma = {soma}");
+            else {
+                Console.WriteLine($"Maior área: Y");
+            }
         }
     }
 }
