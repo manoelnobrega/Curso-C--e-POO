@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace EX3 {
     internal class Program {
         static void Main(string[] args) {
-            Produto cliente;
+            Produto cliente; // chama a classe ao programa principal
             cliente = new Produto();
 
             Console.WriteLine("Entre os dados do produto:");
@@ -19,16 +19,19 @@ namespace EX3 {
             Console.Write("Quantidade no estoque: ");
             cliente.Quantidade = int.Parse(Console.ReadLine());
 
+            Console.WriteLine();
             Console.WriteLine($"Dados do produto: {cliente}");
             
             Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
             cliente.AdicionarProdutos(int.Parse(Console.ReadLine()));
 
+            Console.WriteLine();
             Console.WriteLine($"Dados atualizados: {cliente}");
 
             Console.Write("Digite o número de produtos a ser removido do estoque: ");
             cliente.RemoverProdutos(int.Parse(Console.ReadLine()));
 
+            Console.WriteLine();
             Console.WriteLine($"Dados atualizados: {cliente}");
         }
     }
