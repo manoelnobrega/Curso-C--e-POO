@@ -8,33 +8,19 @@ using System.Security.Principal;
 
 namespace Course {
     internal class Program {
+
         static void Main(string[] args) {
+            double raio, circ, vol;
 
-            Triangulo x, y;
-            x = new Triangulo();
-            y = new Triangulo();
+            Console.Write("Entre com o valor do raio: ");
+            raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine("Entre com as medidas do triângulo X:");
-            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.WriteLine("Entre com as medidas do triângulo Y:");
-            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            circ = Calculadora.Circunferencia(raio);
+            vol = Calculadora.Volume(raio);
 
-            double areaX = x.Area();
-            double areaY = y.Area();
-
-            Console.WriteLine($"Área de X = {areaX.ToString("F4", CultureInfo.InvariantCulture)}");
-            Console.WriteLine($"Área de Y = {areaY.ToString("F4", CultureInfo.InvariantCulture)}");
-            
-            if (areaX > areaY) {
-                Console.WriteLine($"Maior área: X");
-            }
-            else {
-                Console.WriteLine($"Maior área: Y");
-            }
+            Console.WriteLine($"Circunferência: {circ.ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Volume: {vol.ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Valor de Pi: {Calculadora.pi.ToString("F2", CultureInfo.InvariantCulture)}");
         }
     }
 }
