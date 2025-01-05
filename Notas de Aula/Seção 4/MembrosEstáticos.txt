@@ -1,0 +1,14 @@
+Membros (de Instância): Atributos e Métodos
+
+Membros Estáticos?
+.
+.
+.
+
+MEMBROS ESTÁTICOS:
+> São membros de classe (!= membros de instância (atributos e métodos))
+> Fazem sentido independentemente de objetos. São chamados a partir do próprio nome da classe.
+> Aplicações:
+	> Classes utiliárias (Math.Sqrt() -> nesse caso math é um objeto que não precisou ser instânciado antes)
+	> Declaração de constantes
+> Uma classe só com membros estáticos é uma classe estática. Esta classe não pode ser instânciada.
