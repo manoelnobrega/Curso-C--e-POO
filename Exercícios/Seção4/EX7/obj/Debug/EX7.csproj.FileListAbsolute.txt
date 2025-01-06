@@ -1,0 +1,7 @@
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção4\EX7\bin\Debug\EX7.exe.config
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção4\EX7\bin\Debug\EX7.exe
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção4\EX7\bin\Debug\EX7.pdb
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção4\EX7\obj\Debug\EX7.csproj.AssemblyReference.cache
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção4\EX7\obj\Debug\EX7.csproj.CoreCompileInputs.cache
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção4\EX7\obj\Debug\EX7.exe
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção4\EX7\obj\Debug\EX7.pdb
