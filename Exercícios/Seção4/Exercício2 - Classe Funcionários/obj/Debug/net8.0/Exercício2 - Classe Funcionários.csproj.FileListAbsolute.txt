@@ -1,0 +1,15 @@
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\bin\Debug\net8.0\Exercício2 - Classe Funcionários.exe
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\bin\Debug\net8.0\Exercício2 - Classe Funcionários.deps.json
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\bin\Debug\net8.0\Exercício2 - Classe Funcionários.runtimeconfig.json
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\bin\Debug\net8.0\Exercício2 - Classe Funcionários.dll
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\bin\Debug\net8.0\Exercício2 - Classe Funcionários.pdb
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\Exercício2 - Classe Funcionários.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\Exercício2 - Classe Funcionários.AssemblyInfoInputs.cache
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\Exercício2 - Classe Funcionários.AssemblyInfo.cs
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\Exercício2 - Classe Funcionários.csproj.CoreCompileInputs.cache
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\Exercício2 - Classe Funcionários.sourcelink.json
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\Exercício2 - Classe Funcionários.dll
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\refint\Exercício2 - Classe Funcionários.dll
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\Exercício2 - Classe Funcionários.pdb
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\Exercício2 - Classe Funcionários.genruntimeconfig.cache
+C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Exercícios\Seção4\Exercício2 - Classe Funcionários\obj\Debug\net8.0\ref\Exercício2 - Classe Funcionários.dll
