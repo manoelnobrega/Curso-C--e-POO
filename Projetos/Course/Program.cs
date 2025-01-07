@@ -1,26 +1,36 @@
 ﻿using System;
 using System.Globalization;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Security.Principal;
 
 namespace Course {
-    internal class Program {
-
+    class Program {
         static void Main(string[] args) {
-            double raio, circ, vol;
+            Console.WriteLine("Entre os dados do produto:");
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine();
+            Console.Write("Preço: ");
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.Write("Entre com o valor do raio: ");
-            raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Produto p3 = new Produto {
+                Nome = "TV",
+                Preco = 500.0,
+                Quantidade = 20
+            }; // Essa sintaxe funciona perfeitamente mesmo com a classe sem contrutores
 
-            circ = Calculadora.Circunferencia(raio);
-            vol = Calculadora.Volume(raio);
-
-            Console.WriteLine($"Circunferência: {circ.ToString("F2", CultureInfo.InvariantCulture)}");
-            Console.WriteLine($"Volume: {vol.ToString("F2", CultureInfo.InvariantCulture)}");
-            Console.WriteLine($"Valor de Pi: {Calculadora.pi.ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine();
+            Console.WriteLine("Dados do produto: " + p);
+            
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
+            int qte = int.Parse(Console.ReadLine());
+            p.AdicionarProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser removido do estoque: ");
+            qte = int.Parse(Console.ReadLine());
+            p.RemoverProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
         }
     }
 }
