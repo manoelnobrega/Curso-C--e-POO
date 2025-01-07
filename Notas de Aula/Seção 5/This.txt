@@ -1,0 +1,30 @@
+THIS:
+
+> É uma referência para o próprio objeto
+
+> Usos comuns:
+	> Diferenciar atributos de variáveis locais:
+
+		Produto p = new Produto("TV", 1500.0);
+
+		-------------------------------------------------------------------------
+	
+		// Nesse caso abaixo o this está referenciando os atributos da classe
+		public Produto(string Nome, double Preco) {
+			this.Nome = Nome;
+			this.Preco = Preco;
+			Quantidade = 0;
+		}
+
+	> Referenciar outro construtor em um construtor:
+
+		public Produto() { Quantidade = 0; }
+	
+		// Nesse caso abaixo o this() está referenciando o construtor padrão da classe
+		public Produto(string nome, double preco) : this () {
+			Nome = nome;
+			Preco = preco;
+		}
+
+
+	> Passar o próprio objeto como argumento na chamada de um método ou construtor

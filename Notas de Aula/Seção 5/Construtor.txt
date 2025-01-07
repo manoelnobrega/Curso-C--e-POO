@@ -9,6 +9,16 @@ CONSTRUTOR:
 	> Produto p = new Produto();
 > Especificando mais de um construtor para uma classe (Sobrecarga)
 
+> Sintaxe diferente:
+	Produto p3 = new Produto {
+    	Nome = "TV",
+    	Preco = 500.0,
+    	Quantidade = 20
+	}; 
+	// Essa sintaxe funciona perfeitamente mesmo com a classe sem contrutores
+
+
+
 AULA:
 
 PROGRAM.CS:
