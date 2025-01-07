@@ -10,6 +10,8 @@ namespace Course {
             Console.Write("Preço: ");
             double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
+            Produto p = new Produto();
+
             Produto p3 = new Produto {
                 Nome = "TV",
                 Preco = 500.0,
