@@ -1,0 +1,82 @@
+ENCAPSULAMENTO:
+
+> Consiste em esconder detalhes da implementação de um componente
+
+> O objeto deve estar em um estado consiste e a classe deve garantir isso
+
+> Todo atributo é definido como private (!= public)
+
+> Opção 1: Implementação manual
+
+	> Implementação dos métodos Get (Obter) e Set (Definir) para cada atributo!
+
+
+> Fazendo o encapsulamento da classe Produto.cs, 
+para que não possa ser exposto para outro arquivo algum atributo 
+ou método que possa prejudicar o produto:
+
+AULA: 
+
+PRODUTO.CS:
+
+using System.Globalization;
+namespace Course {
+	class Produto {
+		private string _nome;  // Os atributos devem estar em letra minúscula e _ antes do nome
+		private double _preco;
+		private int _quantidade;
+		
+		public Produto() {
+		}
+		
+		public Produto(string nome, double preco, int quantidade) {
+			_nome = nome;
+			_preco = preco;
+			_quantidade = quantidade;
+		}
+
+		// Métodos Get e Set:		
+
+		public string GetNome() {
+			return _nome;
+		}
+		
+		public void SetNome(string nome) {
+			if (nome != null && nome.Length > 1) {
+				_nome = nome;
+			}
+		}
+
+		// No caso de Preco e Quantidade, não podem ser alterados no program.cs pois não há um método Set() para esses atributos.
+
+		public double GetPreco() {
+			return _preco;
+		}
+
+		public int GetQuantidade() {
+			return _quantidade;
+		}
+
+		public double ValorTotalEmEstoque() {
+			return _preco * _quantidade;
+		}
+
+		public void AdicionarProdutos(int quantidade) {
+			_quantidade += quantidade;
+		}
+
+		public void RemoverProdutos(int quantidade) {
+			_quantidade -= quantidade;
+		}
+
+		public override string ToString() {
+			return _nome
+			+ ", $ "
+			+ _preco.ToString("F2", CultureInfo.InvariantCulture)
+			+ ", "
+			+ _quantidade
+			+ " unidades, Total: $ "
+			+ ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
+		}
+	}
+}
