@@ -12,3 +12,59 @@ MEMBROS ESTÁTICOS:
 	> Classes utiliárias (Math.Sqrt() -> nesse caso math é um objeto que não precisou ser instânciado antes)
 	> Declaração de constantes
 > Uma classe só com membros estáticos é uma classe estática. Esta classe não pode ser instânciada.
+
+
+AULA:
+
+PROGRAM.CS:
+
+using System;
+using System.Globalization;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Security.Principal;
+
+namespace Course {
+    internal class Program {
+
+        static void Main(string[] args) {
+            double raio, circ, vol;
+
+            Console.Write("Entre com o valor do raio: ");
+            raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            circ = Calculadora.Circunferencia(raio);
+            vol = Calculadora.Volume(raio);
+
+            Console.WriteLine($"Circunferência: {circ.ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Volume: {vol.ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Valor de Pi: {Calculadora.pi.ToString("F2", CultureInfo.InvariantCulture)}");
+        }
+    }
+}
+
+CALCULADORA.CS:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Course
+{
+    internal class Calculadora
+    {
+        public static double pi = 3.14;
+
+        public static double Circunferencia(double r) {
+            return 2 * pi * r;
+        }
+
+        public static double Volume(double r) {
+            return (4.0 / 3.0) * (pi) * (r * r * r);
+        }
+    }
+}

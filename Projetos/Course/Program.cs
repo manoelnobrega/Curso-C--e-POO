@@ -1,40 +1,36 @@
 ﻿using System;
 using System.Globalization;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Security.Principal;
 
 namespace Course {
-    internal class Program {
+    class Program {
         static void Main(string[] args) {
+            Console.WriteLine("Entre os dados do produto:");
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine();
+            Console.Write("Preço: ");
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Triangulo x, y;
-            x = new Triangulo();
-            y = new Triangulo();
+            Produto p3 = new Produto {
+                Nome = "TV",
+                Preco = 500.0,
+                Quantidade = 20
+            }; // Essa sintaxe funciona perfeitamente mesmo com a classe sem contrutores
 
-            Console.WriteLine("Entre com as medidas do triângulo X:");
-            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.WriteLine("Entre com as medidas do triângulo Y:");
-            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
-            double areaX = x.Area();
-            double areaY = y.Area();
-
-            Console.WriteLine($"Área de X = {areaX.ToString("F4", CultureInfo.InvariantCulture)}");
-            Console.WriteLine($"Área de Y = {areaY.ToString("F4", CultureInfo.InvariantCulture)}");
+            Console.WriteLine();
+            Console.WriteLine("Dados do produto: " + p);
             
-            if (areaX > areaY) {
-                Console.WriteLine($"Maior área: X");
-            }
-            else {
-                Console.WriteLine($"Maior área: Y");
-            }
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
+            int qte = int.Parse(Console.ReadLine());
+            p.AdicionarProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser removido do estoque: ");
+            qte = int.Parse(Console.ReadLine());
+            p.RemoverProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
         }
     }
 }

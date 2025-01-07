@@ -5,3 +5,10 @@ C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Projetos\Course\obj\Debug\Cours
 C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Projetos\Course\obj\Debug\Course.csproj.CoreCompileInputs.cache
 C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Projetos\Course\obj\Debug\Course.exe
 C:\Users\Manoel\Documentos\GitHub\CursoCSharpPOO\Projetos\Course\obj\Debug\Course.pdb
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Projetos\Course\obj\Debug\Course.csproj.AssemblyReference.cache
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Projetos\Course\obj\Debug\Course.csproj.CoreCompileInputs.cache
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Projetos\Course\obj\Debug\Course.exe
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Projetos\Course\obj\Debug\Course.pdb
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Projetos\Course\bin\Debug\Course.exe.config
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Projetos\Course\bin\Debug\Course.exe
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Projetos\Course\bin\Debug\Course.pdb
