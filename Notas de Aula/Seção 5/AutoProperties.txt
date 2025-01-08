@@ -1,0 +1,7 @@
+PROPRIEDADES AUTOIMPLEMENTADAS:
+
+> Uma forma simplificada de se declarar propriedades que não necessitam lógicas particulares para as operações Get e Set.
+
+prop (No Visual Studio):
+
+public int MyProperty { get; set; }
