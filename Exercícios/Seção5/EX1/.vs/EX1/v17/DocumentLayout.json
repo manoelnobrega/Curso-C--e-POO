@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\clara\\Documents\\GitHub\\CursoCSharpPOO\\Exerc\u00EDcios\\Se\u00E7\u00E3o5\\EX1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E25B33C-A976-4EF6-971B-83F9E76FDD26}|EX1.csproj|c:\\users\\clara\\documents\\github\\cursocsharppoo\\exerc\u00EDcios\\se\u00E7\u00E3o5\\ex1\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E25B33C-A976-4EF6-971B-83F9E76FDD26}|EX1.csproj|solutionrelative:conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E25B33C-A976-4EF6-971B-83F9E76FDD26}|EX1.csproj|c:\\users\\clara\\documents\\github\\cursocsharppoo\\exerc\u00EDcios\\se\u00E7\u00E3o5\\ex1\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E25B33C-A976-4EF6-971B-83F9E76FDD26}|EX1.csproj|solutionrelative:contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E25B33C-A976-4EF6-971B-83F9E76FDD26}|EX1.csproj|c:\\users\\clara\\documents\\github\\cursocsharppoo\\exerc\u00EDcios\\se\u00E7\u00E3o5\\ex1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E25B33C-A976-4EF6-971B-83F9E76FDD26}|EX1.csproj|C:\\Users\\clara\\Documents\\GitHub\\CursoCSharpPOO\\Exerc\u00EDcios\\Se\u00E7\u00E3o5\\EX1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E25B33C-A976-4EF6-971B-83F9E76FDD26}|EX1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,12 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Conta.cs",
-              "DocumentMoniker": "C:\\Users\\clara\\Documents\\GitHub\\CursoCSharpPOO\\Exerc\u00EDcios\\Se\u00E7\u00E3o5\\EX1\\Conta.cs",
-              "RelativeDocumentMoniker": "Conta.cs",
-              "ToolTip": "C:\\Users\\clara\\Documents\\GitHub\\CursoCSharpPOO\\Exerc\u00EDcios\\Se\u00E7\u00E3o5\\EX1\\Conta.cs",
-              "RelativeToolTip": "Conta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\clara\\Documents\\GitHub\\CursoCSharpPOO\\Exerc\u00EDcios\\Se\u00E7\u00E3o5\\EX1\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "ContaBancaria.cs",
+              "ToolTip": "C:\\Users\\clara\\Documents\\GitHub\\CursoCSharpPOO\\Exerc\u00EDcios\\Se\u00E7\u00E3o5\\EX1\\ContaBancaria.cs",
+              "RelativeToolTip": "ContaBancaria.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAhwBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T18:24:19.243Z",
               "EditorCaption": ""
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\clara\\Documents\\GitHub\\CursoCSharpPOO\\Exerc\u00EDcios\\Se\u00E7\u00E3o5\\EX1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwCkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T18:19:23.53Z",
               "EditorCaption": ""
