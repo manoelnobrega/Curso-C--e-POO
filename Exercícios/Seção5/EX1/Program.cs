@@ -9,7 +9,8 @@ namespace EX1 {
     internal class Program {
         static void Main(string[] args) {
             int Num;
-            string Nome, Opc;
+            string Nome;
+            char Opc;
             double Valor = 0.0;
             ContaBancaria conta;
             double dep, saq;
@@ -19,13 +20,15 @@ namespace EX1 {
             Console.Write("Entre com o nome do titular da conta: ");
             Nome = Console.ReadLine();
             Console.Write("Haverá depósito inicial (s/n)? ");
-            Opc = Console.ReadLine();
-            if (Opc == "s") {
+            Opc = char.Parse(Console.ReadLine());
+            if (Opc == 's' || Opc == 'S') {
                 Console.Write("Entre com valor do depósito inicial: ");
                 Valor = double.Parse(Console.ReadLine());
+                conta = new ContaBancaria(Num, Nome, Valor);
             }
-
-            conta = new ContaBancaria(Num, Nome, Valor);
+            else {
+                conta = new ContaBancaria(Num, Nome);
+            }
 
             Console.WriteLine("Dados da conta:");
             Console.WriteLine(conta);
