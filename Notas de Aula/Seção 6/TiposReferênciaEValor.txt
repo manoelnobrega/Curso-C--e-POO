@@ -1,0 +1,43 @@
+Tipos Referência:
+
+> Variáveis cujo tipo são classes, são na verdade ponteiros para algum tipo específico.
+> Tipos Referência (Ponteiros) aceitam o valor "null".
+
+Tipos Valor:
+
+> Também chamados de "structs". Que são CAIXAS e não ponteiros.
+> int, long, byte, char, string, float, double, etc....
+> Outros Structs importantes: DateTime, TimeSpan.
+
+> Para criar um Struct:
+
+	namespace Course {
+		struct Point {
+			public double X, Y;
+
+			public override string ToString() {
+				return "(" + X + "," + Y + ")";
+			}
+		}
+	}
+
+	/* No programa principal é importante inicializar o struct com:
+	
+	Point s = new Point()
+	
+	ou com:
+	
+	Point p;
+	p.X = 1;
+	p.Y = 2;
+
+	*/
+
+
+Valores Padrão:
+
+> Ao alocar (new) qualquer tipo estruturado (classe, struct, array), são atribuídos valores padrão aos seus elementos
+	> números = 0
+	> bool = False
+	> char = caractere código 0
+	> objeto = null

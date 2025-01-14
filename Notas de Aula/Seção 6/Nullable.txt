@@ -1,0 +1,27 @@
+NULLABLE
+
+> É um recurso de C# para que dados de tipo valor (structs) possam receber o valor null
+
+	double x = null; // Errado
+
+	Nullable<double> y = null; // Certo
+
+	double? z = null; // Certo
+
+
+> Métodos: 
+
+	> GetValueOrDefault:
+		Apresenta o valor da variável, ou 0 caso a variavél receba null como valor
+
+	> HasValue:
+		False caso variável = null e True caso variável possua um valor != null
+
+	> Value (lança uma exceção se não houver valor (null))
+
+> Operador de coalescência nula:
+	
+	double y = x ?? 0.0; // Caso x = null , teremos que y = 0.0
+
+
+	
