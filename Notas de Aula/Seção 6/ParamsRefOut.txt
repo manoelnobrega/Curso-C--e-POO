@@ -1,0 +1,36 @@
+Params:
+
+namespace Course {
+	class Calculator {
+		public static int Sum(params int[] numbers) {
+			int sum = 0;
+			for (int i=0; i<numbers.Length; i++) {
+				sum += numbers[i];
+			}
+			return sum;
+		}
+	}
+}
+
+int result = Calculator.Sum(10, 20, 30, 40);
+
+
+
+
+Ref:
+> Nesse caso x é uma referência a variável a.
+
+class Program {
+	static void Main(string[] args) {
+		int a = 10;
+		Calculator.Triple(ref a);
+		Console.WriteLine(a);
+	}
+}
+
+
+class Calculator {
+	public static void Triple(ref int x) {
+		x = x * 3;
+	}
+}
