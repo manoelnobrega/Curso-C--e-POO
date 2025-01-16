@@ -1,0 +1,21 @@
+BOXING:
+
+> É o processo de conversão de um objeto tipo valor para um objeto tipo referência compatível.
+
+	int x = 20;
+
+	Object obj = x;  // Object é um tipo genérico de C# e ele é compatível a qualquer outro tipo
+
+> A variável obj será um referência para um novo objeto que será instanciado no Heap da Memória
+> Tem um certo custo no processamento
+
+____________________________________________________________________________________
+
+UNBOXING:
+
+> É o processo de conversão de um objeto tipo referência para um objeto tipo valor compatível.
+
+	int y = (int) obj;  //É necessário fazer um casting para que funcione (int)
+
+> Só irá funcionar se obj for compatível com int, que nesse caso é.
+> A variável y é criada no Stack da Memória e ela recebe o valor do obj que está no Heap.

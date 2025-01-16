@@ -1,4 +1,4 @@
-Params:
+PARAMS:
 
 namespace Course {
 	class Calculator {
@@ -14,10 +14,9 @@ namespace Course {
 
 int result = Calculator.Sum(10, 20, 30, 40);
 
+____________________________________________________________________________
 
-
-
-Ref:
+REF:
 > Nesse caso x é uma referência a variável a.
 
 class Program {
@@ -32,5 +31,26 @@ class Program {
 class Calculator {
 	public static void Triple(ref int x) {
 		x = x * 3;
+	}
+}
+
+____________________________________________________________________________
+
+OUT:
+> A variável passada como parâmetro out não precisa ser iniciada
+
+class Program {
+	static void Main(string[] args) {
+		int a = 10;
+		int triple;
+		Calculator.Triple(a, out triple);
+		Console.WriteLine(triple);
+	}
+}
+
+class Calculator {
+
+	public static void Triple(int origin, out int result) {
+		result = origin * 3;
 	}
 }
