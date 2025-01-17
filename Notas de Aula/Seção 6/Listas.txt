@@ -1,0 +1,86 @@
+LISTAS:
+
+> Estrutura de Dados:
+	> Homogênea (dados do mesmo tipo)
+	> Ordenada (elementos acessados por meio de posições)
+	> Inicia vazia, e seus elementos são alocados sob demanda
+	> Cada elemento ocupa um nó (ou nodo) da lista
+
+> Classe: List
+> Namespace: System.Collections.Generic
+
+	List<string> lista = new List<string>;  // declaração e instanciação de uma lista
+
+> Tamanho Variável
+> Facilidade para se realizar inserções e deleções
+
+> Acesso sequencial aos elementos
+
+> Algumas ferramentas:
+
+	> Add, Insert  // Insere elemento na lista
+
+	> Count  // Tamanho da lista
+
+	> list.Find, list.FindLast  // Encontra primeiro ou último elemento da lista que satisfaça um predicado
+	
+	> list.FindIndex, list.FindLastIndex  // Encontra primeira ou última POSIÇÃO do elemento da lista que satisfaça um predicado
+	
+	> list.FindAll  // Filtra a lista com base em um predicado
+	
+	> Remove, RemoveAll, RemoveAt, RemoveRange  // Remove elementos da lista
+
+
+> Generics
+> Predicados (lambda)
+
+
+AULA: 
+
+List<string> list = new List<string>();
+
+list.Add("Maria");
+list.Add("Alex");
+list.Add("Bob");
+list.Add("Anna");
+
+list.Insert(2, "Marco");
+
+foreach (string obj in list) {
+	Console.WriteLine(obj);
+}
+
+Console.WriteLine("List count: " + list.Count);
+
+string s1 = list.Find(x => x[0] == 'A');  // Encontrar a string x tal que x na posição 0 seja igual a 'A'
+Console.WriteLine("First 'A': " + s1);
+
+string s2 = list.FindLast(x => x[0] == 'A');  // x => x[0] == 'A' , é uma expressão lambda ou predicado
+Console.WriteLine("Last 'A': " + s2);
+
+
+int pos1 = list.FindIndex(x => x[0] == 'A');  // Encontrar a posição do string x tal que x na posição 0 seja igual a 'A'
+Console.WriteLine("First position 'A': " + pos1);
+
+int pos2 = list.FindLastIndex(x => x[0] == 'A');
+Console.WriteLine("Last position 'A': " + pos2);
+
+
+List<string> list2 = list.FindAll(x => x.Length == 5);  // Encontrar todo o string x tal que x.Length é igual a 5
+Console.WriteLine("---------------------");
+foreach (string obj in list2) {
+	Console.WriteLine(obj);  // Maria, Marco
+}
+
+
+list.Remove("Alex");
+Console.WriteLine("---------------------");
+foreach (string obj in list) {
+	Console.WriteLine(obj);
+}
+
+list.RemoveAll(x => x[0] == 'M');  // Remover todo string x tal que x na posição seja igual a M
+Console.WriteLine("---------------------");
+foreach (string obj in list) {
+	Console.WriteLine(obj);
+}
