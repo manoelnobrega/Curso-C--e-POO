@@ -25,5 +25,10 @@ namespace Listas {
         public void AumentarSalario(double porcentagem) {
             Salario += ((porcentagem / 100) * Salario);
         }
+
+        public override string ToString() {
+            return $"{ID}, {Nome}, R$ {Salario}";
+        }
+
     }
 }

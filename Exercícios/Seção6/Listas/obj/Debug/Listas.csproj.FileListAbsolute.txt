@@ -1,0 +1,7 @@
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção6\Listas\bin\Debug\Listas.exe.config
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção6\Listas\bin\Debug\Listas.exe
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção6\Listas\bin\Debug\Listas.pdb
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção6\Listas\obj\Debug\Listas.csproj.AssemblyReference.cache
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção6\Listas\obj\Debug\Listas.csproj.CoreCompileInputs.cache
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção6\Listas\obj\Debug\Listas.exe
+C:\Users\clara\Documents\GitHub\CursoCSharpPOO\Exercícios\Seção6\Listas\obj\Debug\Listas.pdb
