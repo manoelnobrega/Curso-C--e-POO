@@ -1,0 +1,23 @@
+MATRIZES:
+
+> Arranjos Bidimensionais
+
+> Estrutura de dados:
+	> Homogênea (dados do mesmo tipo)
+	> Ordenada
+	> Alocada de ums vez só, em um bloco contíguo de memória
+
+> Acesso imediato aos elementos pela sua posição
+> Tamanho fixo
+
+AULA:
+
+double[,] mat = new double[2, 3];  // Instanciação e alocação da matriz
+
+Console.WriteLine(mat.Length);  // Número de elementos na matriz
+
+Console.WriteLine(mat.Rank);  // Número de elementos na primeira dimensão (linhas)
+
+Console.WriteLine(mat.GetLength(0));  // Número de elementos na primeira dimensão
+
+Console.WriteLine(mat.GetLength(1));  // Número de elementos na segunda dimensão
