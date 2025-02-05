@@ -1,0 +1,32 @@
+Funções para String:
+
+> Formatar:
+	> ToLower()
+	> ToUpper()
+	> Trim()  // Retira os espaços antes e depois (strip em python)
+
+> Buscar:
+	> IndexOf()
+	> LastIndexOf()
+
+> Recortar:
+	> Substring(inicio)
+	> Substring(inicio, tamanho)
+
+> Substituir:
+	> Replace(char, char)
+	> Replace(string, string)
+
+> Bool:
+	> String.IsNullOrEmpty(str)
+	> String.IsNullOrWhiteSpace(str)
+
+> Separar:
+	> str.Split(' ')
+
+> Conversão para numero:
+	> int.Parse(str)
+	> Convert.ToInt32(str)
+
+> Conversão de numero:
+	> str.ToString()
