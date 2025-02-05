@@ -1,0 +1,60 @@
+SWITCH CASE:
+> Condição que envolve o teste de valores de uma variável
+
+AULA:
+
+int x = int.Parse(Console.ReadLine());
+string day;
+
+switch (x) {
+
+case 1:
+	day = "Sunday";
+	break;
+case 2:
+	day = "Monday";
+	break;
+case 3:
+	day = "Tuesday";
+	break;
+case 4:
+	day = "Wednesday";
+	break;
+case 5:
+	day = "Thursday";
+	break;
+case 6:
+	day = "Friday";
+	break;
+case 7:
+	day = "Saturday";
+	break;
+default:
+	day = "Invalid value";
+	break;
+}
+Console.WriteLine("Day: " + day);
+
+
+CONDICIONAL TERNÁRIA:
+
+> Estrutura alternativa ao if-else, quando se deseja decidir um valor com base em uma condição.
+
+> ( condição ) ? valor_se_verdadeiro : valor_se_falso
+
+AULA:
+
+// If-else:
+double preco = 34.5;
+double desconto;
+if (preco < 20.0) {
+	desconto = preco * 0.1;
+}
+else {
+	desconto = preco * 0.05;
+}
+
+// Condicional Ternária:
+
+double preco = 34.5;
+double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
