@@ -1,0 +1,44 @@
+TIMESPAN:
+
+> Representa uma duração
+> É um tipo valor (struct)
+
+Representação interna:
+	> Armazena internamente uma duração na forma de "ticks"(100 nanosegundos)
+
+	TimeSpan t1 = new TimeSpan(0, 1, 30);
+
+Métodos From:
+
+	TimeSpan t1 = TimeSpan.FromDays(1.5);
+	TimeSpan t2 = TimeSpan.FromHours(1.5);
+	TimeSpan t3 = TimeSpan.FromMinutes(1.5);
+	TimeSpan t4 = TimeSpan.FromSeconds(1.5);
+	TimeSpan t5 = TimeSpan.FromMilliseconds(1.5);
+	TimeSpan t6 = TimeSpan.FromTicks(900000000L);
+
+Propriedades:
+
+	TimeSpan t = new TimeSpan(2, 3, 5, 7, 11);	
+
+	> t.Days
+	> t.Hours
+	> t.Minutes
+	> t.Milliseconds
+	> t.Seconds
+	> t.Ticks
+	> t.TotalDays
+	> t.TotalHours
+	> t.TotalMinutes
+	> t.TotalSeconds
+	> t.TotalMilliseconds
+
+Operações:
+	
+	TimeSpan t1 = new TimeSpan(1, 30, 10);
+	TimeSpan t2 = new TimeSpan(0, 10, 5);	
+	
+	TimeSpan sum = t1.Add(t2);
+	TimeSpan dif = t1.Subtract(t2);
+	TimeSpan mult = t2.Multiply(2.0);
+	TimeSpan div = t2.Divide(2.0);
